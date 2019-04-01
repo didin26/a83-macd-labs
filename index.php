@@ -33,7 +33,7 @@
 	
 
     try {
-        $conn = new PDO("sqlsrv:server = tcp:burhanuddinwebappserver.database.windows.net,1433; Database = burhanuddindb", "burhanuddin", "{your_password_here}");
+        $conn = new PDO("sqlsrv:server = tcp:burhanuddinwebappserver.database.windows.net,1433; Database = burhanuddindb", "burhanuddin", "Dic0ding@2019");
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
     } catch(Exception $e) {
         echo "Failed: " . $e;
